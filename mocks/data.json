@@ -1,0 +1,97 @@
+{
+  "cars" : [{
+      "id": 1,
+      "name": "Maruti Suzuki S-Presso",
+      "url": "https://auto.ndtvimg.com/car-images/medium/maruti-suzuki/s-presso/maruti-suzuki-s-presso.webp?v=29"        
+      },
+      {
+      "id": 2,
+      "name": "Kia Seltos",
+      "url": "https://auto.ndtvimg.com/car-images/medium/kia/seltos/kia-seltos.webp?v=28"        
+      },
+      {
+      "id": 3,
+      "name": "MG Hector",
+      "url": "https://auto.ndtvimg.com/car-images/medium/mg/hector/mg-hector.webp?v=24"        
+      }],
+  "cardetails" : [{
+                  "id": 1,
+                  "carid": 1,
+                  "carmodel":"S-Presso STD",
+                  "cartype": "Crossover",
+                  "mileage":"21.40 kmpl",
+                  "fuel":"Petrol",                    
+                  "transmission": "Manual",
+                  "price": "4.09 lakhs" 
+                },
+                {
+                  "id": 2,
+                  "carid": 1,
+                  "carmodel":"S-Presso VXI",
+                  "cartype": "Crossover",
+                  "mileage":"21.70 kmpl",
+                  "fuel":"Petrol",                    
+                  "transmission": "Manual",
+                  "price": "4.7 lakhs" 
+                },
+                {
+                  "id": 3,
+                  "carid": 1,
+                  "carmodel":"S-Presso VXI AGS",
+                  "cartype": "Crossover",
+                  "mileage":"21.70 kmpl",
+                  "fuel":"Petrol",                    
+                  "transmission": "Automatic",
+                  "price": "5.17 lakhs" 
+                },
+                {
+                  "id": 4,
+                  "carid": 2,
+                  "carmodel":"Seltos HTE Petrol",
+                  "cartype": "SUV",
+                  "mileage":"16.50 kmpl",
+                  "fuel":"Petrol",                    
+                  "transmission": "Manual",
+                  "price": "11.3 lakhs" 
+                },
+                {
+                  "id": 5,
+                  "carid": 2,
+                  "carmodel":"Seltos HTK Diesel",
+                  "cartype": "SUV",
+                  "mileage":"21.00 kmpl",
+                  "fuel":"Diesel",                    
+                  "transmission": "Manual",
+                  "price": "13.71 lakhs" 
+                },
+                {
+                  "id": 6,
+                  "carid": 2,
+                  "carmodel":"Seltos HTX AT Petrol",
+                  "cartype": "SUV",
+                  "mileage":"16.80 kmpl",
+                  "fuel":"Petrol",                    
+                  "transmission": "Automatic",
+                  "price": "16.72 lakhs" 
+                },
+                {
+                  "id": 7,
+                  "carid": 3,
+                  "carmodel":"Hector Super Petrol BS IV",
+                  "cartype": "SUV",
+                  "mileage":"14.16 kmpl",
+                  "fuel":"Petrol",                    
+                  "transmission": "Manual",
+                  "price": "15.13 lakhs" 
+                },
+                {
+                  "id": 8,
+                  "carid": 3,
+                  "carmodel":"Hector Super Hybrid BS IV",
+                  "cartype": "SUV",
+                  "mileage":"15.80 kmpl",
+                  "fuel":"Hybrid",                    
+                  "transmission": "Manual",
+                  "price": "16.78 lakhs" 
+                }]
+}

@@ -1,0 +1,26 @@
+<div>
+  <div>
+    <h3>
+      List of latest cars in Indian market
+    </h3>
+  </div>
+  <div >
+    <table class="table table-striped">
+      <thead class="thead-light">
+      <tr>          
+        <th scope="col">Name</th>
+        <th scope="col"></th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let car of cars">              
+        <th scope="row">{{car.name}}</th>          
+        <td style="cursor:pointer;font-size:smaller;font-weight: bold;">
+          <img src={{car.url}} style="width: 150px;" >
+          <app-cardetails [carid]="car.id"></app-cardetails>
+        </td>          
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

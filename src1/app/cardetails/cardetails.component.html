@@ -1,0 +1,13 @@
+<p>Car Variants:</p>
+<table class="table">    
+    <tr>
+      <td  *ngFor="let car of cardetails">
+       Car Model: <label>{{car.carmodel}}</label> <br/>
+       Car Type: <label>{{car.cartype}}</label> <br/>
+       Mileage: <label>{{car.mileage}}</label> <br/>
+       Fuel: <label>{{car.fuel}}</label> <br/>
+       Transmission: <label> {{car.transmission}} </label> <br/>
+       Price: <label>{{car.price}}</label>
+       </td>
+    </tr>
+  </table>

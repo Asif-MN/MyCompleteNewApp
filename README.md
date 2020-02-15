@@ -1,2 +1,0 @@
-# MyCompleteNewApp
-Created with CodeSandbox
